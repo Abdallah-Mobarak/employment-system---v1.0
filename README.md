@@ -160,6 +160,19 @@ This project is an employment system that allows employers to manage job vacanci
    - Cannot apply for more than one vacancy within 24 hours.
 
 ---
+## Project Structure
+```
+.
+├── controllers          # API controllers
+├── middleware           # Custom middleware (auth, error handling, etc.)
+├── models               # Mongoose models
+├── routes               # API route definitions
+├── utils                # Utility functions
+├── .env.example         # Example environment variables
+├── server.js            # Entry point of the application
+└── README.md            # Project documentation
+```
+
 
 ## Author
 [Abdallah Mobarak](https://github.com/Abdallah-Mobarak)
